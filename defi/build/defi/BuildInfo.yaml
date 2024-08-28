@@ -1,0 +1,27 @@
+---
+compiled_package_info:
+  package_name: defi
+  address_alias_instantiation:
+    defi: "0000000000000000000000000000000000000000000000000000000000000000"
+    mgo: "0000000000000000000000000000000000000000000000000000000000000002"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+  source_digest: EB9F0B59BCA9613E70E8EC47283DDDE63B815282E1CB75DD9FCF6FD04A6232A2
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: mgo
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+    no_lint: false
+dependencies:
+  - Mgo
+  - MoveStdlib

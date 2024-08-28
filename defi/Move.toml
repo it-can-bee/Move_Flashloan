@@ -1,0 +1,9 @@
+[package]
+name = "defi"
+
+[dependencies]
+MoveStdlib = {local = "../../../../mgo-devnet/move-stdlib" }
+Mgo = { local = "../../../../mgo-devnet/mgo-framework" }
+
+[addresses]
+defi = "0x0"
